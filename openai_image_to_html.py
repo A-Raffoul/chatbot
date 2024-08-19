@@ -1,5 +1,6 @@
 from openai import OpenAI
 import base64
+import torch
 
 # Function to encode the image
 def encode_image(image_path):
