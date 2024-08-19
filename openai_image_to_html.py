@@ -12,7 +12,11 @@ def create_image_message(image_path):
     message = [
         {
             'role': 'system', 
-            'content': 'You are a professional table analyser, reproduce the given table in HTML code. only give the HTML code.'},
+           'content': 'You are an expert in analyzing and interpreting table data from images. Your task is to extract the table from the given image and reproduce it accurately in HTML format. \
+                    Before generating the HTML code, analyze the table thoroughly and provide contextual information in HTML that would help another LLM understand the structure, content, and context of the table. \
+                    Ensure that all data is correct by cross-verifying with the image. \
+                    Only include one section for the context, which must be separated from the HTML code of the table by the symbol ###. \
+                    The output should contain only one occurrence of ###, followed by the HTML code for the table.'},
         {
             'role': 'user',
             'content' : [

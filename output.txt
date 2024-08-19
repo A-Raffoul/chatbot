@@ -1,15 +1,6 @@
+The provided table presents survey results regarding the perceptions of General Practitioners and laypersons on various statements about antipsychotic drug treatment. The columns compare the responses of two groups concerning their level of agreement or disagreement with specific statements, each quantified by percentages. Additionally, the last column appears to provide statistical significance (p-values) for the comparisons between the two groups. The statements address the effectiveness, risks, and implications of antipsychotic drug treatment, along with its impact on hospital stays.
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Table Page</title>
-    </head>
-    <body>
-    <h1>Table image</h1>
-        <img src="samples/PMC1626454_002_00.png" alt="Table Image">
-
-    <h2>Table HTML</h2>
-         
+### 
 ```html
 <table border="1">
     <thead>
@@ -66,23 +57,3 @@
     </tbody>
 </table>
 ```
-
-    <h2>Table Information (LLM intermediate step)</h2>
-        The provided table presents survey results regarding the perceptions of General Practitioners and laypersons on various statements about antipsychotic drug treatment. The columns compare the responses of two groups concerning their level of agreement or disagreement with specific statements, each quantified by percentages. Additionally, the last column appears to provide statistical significance (p-values) for the comparisons between the two groups. The statements address the effectiveness, risks, and implications of antipsychotic drug treatment, along with its impact on hospital stays.
-
-
-
-    <h2>Query</h2>
-        What is the size of the table (rows, columns), what are the main headers, summarize the information in the table explain its structure
-    <h3>Query Answer</h3>
-        The table contains 7 rows and 4 columns. The main headers are "Statements," "General Practitioners," "Lay persons," and "P." 
-
-It summarizes survey results comparing the perceptions of General Practitioners and laypersons regarding antipsychotic drug treatment. Each row addresses a specific statement about the effectiveness and risks associated with such treatment, showing the percentage distribution of responses across five levels of agreement (disagree, rather disagree, undecided, rather agree, agree) for both groups. The last column indicates the statistical significance (p-values) for the differences in responses between the two groups.
-
-Structure: 
-- Each row corresponds to a statement.
-- The second and third columns detail the percentage of responses from General Practitioners and laypersons, respectively.
-- The fourth column presents the significance level.
-    </body>
-    </html>
-    
