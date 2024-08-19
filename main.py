@@ -13,11 +13,11 @@ image_path = "samples/PMC1626454_002_00.png"
 
 #  Call the function to extract the HTML code from the image
 html_code = openai_image_to_html.openai_table_extraction_to_html(image_path)
+
+# Save the HTML code to a file debug
 with open('output.txt', 'w') as file:
     file.write(html_code)
 intermediate_output, table_html = html_code.split("###")
-
-
 
 
 # Use HTML code to give context LLM

@@ -1,7 +1,6 @@
 import requests
 import os
 import base64
-import pytesseract
 
 
 # Your Hugging Face API token
